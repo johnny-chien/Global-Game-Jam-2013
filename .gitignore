@@ -38,4 +38,4 @@ ehthumbs.db
 Thumbs.db
 
 # Project Specific #
-Configs/
+Configs/*
