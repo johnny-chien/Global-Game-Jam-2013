@@ -16,6 +16,7 @@
     <sprite>sprites\sprite4</sprite>
     <sprite>sprites\sprite5</sprite>
     <sprite>sprites\sprite6</sprite>
+    <sprite>sprites\panic</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -30,6 +31,7 @@
     <object>objects\wall</object>
     <object>objects\vase</object>
     <object>objects\explosion</object>
+    <object>objects\panic_bubble</object>
     <object>objects\object5</object>
     <object>objects\musicInvisible</object>
   </objects>
