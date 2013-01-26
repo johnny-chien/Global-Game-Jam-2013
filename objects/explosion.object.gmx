@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="4" ename="man4">
+    <event eventtype="4" ename="manSpd12">
       <action>
         <libid>1</libid>
         <id>105</id>
@@ -19,7 +19,7 @@
         <exetype>1</exetype>
         <functionname>action_move_point</functionname>
         <codestring></codestring>
-        <whoName>man4</whoName>
+        <whoName>manSpd12</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -52,7 +52,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="man3">
+    <event eventtype="4" ename="manSpd2">
       <action>
         <libid>1</libid>
         <id>105</id>
@@ -63,7 +63,7 @@
         <exetype>1</exetype>
         <functionname>action_move_point</functionname>
         <codestring></codestring>
-        <whoName>man3</whoName>
+        <whoName>manSpd2</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -82,7 +82,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="man2">
+    <event eventtype="4" ename="manSpd8">
       <action>
         <libid>1</libid>
         <id>105</id>
@@ -93,7 +93,7 @@
         <exetype>1</exetype>
         <functionname>action_move_point</functionname>
         <codestring></codestring>
-        <whoName>man2</whoName>
+        <whoName>manSpd8</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -107,12 +107,12 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>25</string>
+            <string>8</string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="man">
+    <event eventtype="4" ename="manSpd4">
       <action>
         <libid>1</libid>
         <id>105</id>
@@ -123,7 +123,7 @@
         <exetype>1</exetype>
         <functionname>action_move_point</functionname>
         <codestring></codestring>
-        <whoName>man</whoName>
+        <whoName>manSpd4</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>

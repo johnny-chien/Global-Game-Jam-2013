@@ -2,12 +2,12 @@
 <sprite>
   <xorig>87</xorig>
   <yorigin>78</yorigin>
-  <colkind>0</colkind>
+  <colkind>1</colkind>
   <coltolerance>0</coltolerance>
-  <sepmasks>-1</sepmasks>
+  <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
   <bbox_left>87</bbox_left>
-  <bbox_right>111</bbox_right>
+  <bbox_right>143</bbox_right>
   <bbox_top>78</bbox_top>
   <bbox_bottom>120</bbox_bottom>
   <HTile>0</HTile>
@@ -16,5 +16,6 @@
   <For3D>0</For3D>
   <frames>
     <frame index="0">images\manIdle_0.png</frame>
+    <frame index="1">images\manIdle_1.png</frame>
   </frames>
 </sprite>

@@ -4,7 +4,10 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\bgm</sound>
+    <sound>sound\explosionSound</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\manIdle</sprite>
     <sprite>sprites\manWalk</sprite>
@@ -19,15 +22,16 @@
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\man</object>
-    <object>objects\man2</object>
-    <object>objects\man3</object>
-    <object>objects\man4</object>
+    <object>objects\manSpd4</object>
+    <object>objects\manSpd8</object>
+    <object>objects\manSpd2</object>
+    <object>objects\manSpd12</object>
     <object>objects\exit_door</object>
     <object>objects\wall</object>
     <object>objects\vase</object>
     <object>objects\explosion</object>
     <object>objects\object5</object>
+    <object>objects\musicInvisible</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>

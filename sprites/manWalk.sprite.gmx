@@ -2,12 +2,12 @@
 <sprite>
   <xorig>87</xorig>
   <yorigin>78</yorigin>
-  <colkind>0</colkind>
+  <colkind>1</colkind>
   <coltolerance>0</coltolerance>
-  <sepmasks>-1</sepmasks>
+  <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
   <bbox_left>85</bbox_left>
-  <bbox_right>114</bbox_right>
+  <bbox_right>146</bbox_right>
   <bbox_top>75</bbox_top>
   <bbox_bottom>124</bbox_bottom>
   <HTile>0</HTile>
