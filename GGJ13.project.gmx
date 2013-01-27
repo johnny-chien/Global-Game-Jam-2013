@@ -46,10 +46,10 @@
       <sprite>sprites\plumberIdle</sprite>
       <sprite>sprites\plumberWalk</sprite>
       <sprite>sprites\plumberDance</sprite>
+      <sprite>sprites\kimIdle</sprite>
       <sprite>sprites\kimWalk</sprite>
       <sprite>sprites\screamIdle</sprite>
       <sprite>sprites\screamWalk</sprite>
-      <sprite>sprites\kimIdle</sprite>
     </sprites>
     <sprites name="menu">
       <sprite>sprites\menuDesk</sprite>
@@ -76,6 +76,10 @@
     <sprite>sprites\window1spr</sprite>
     <sprite>sprites\garbagecanspr</sprite>
     <sprite>sprites\spr_howToPlay</sprite>
+    <sprite>sprites\tile_spr</sprite>
+    <sprite>sprites\water_spr</sprite>
+    <sprite>sprites\toilet_tmp</sprite>
+    <sprite>sprites\sprite25</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -151,8 +155,14 @@
     <object>objects\obj_panic_bubble</object>
     <object>objects\object27</object>
     <object>objects\obj_howtoplay</object>
+    <object>objects\tile</object>
+    <object>objects\water_exp</object>
+    <object>objects\toilet</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room1</room>
+    <room>rooms\mainMenu</room>
+    <room>rooms\LevelSelect</room>
     <room>rooms\level1</room>
     <room>rooms\level2</room>
     <room>rooms\level3</room>
@@ -162,8 +172,6 @@
     <room>rooms\level7</room>
     <room>rooms\level8</room>
     <room>rooms\level9</room>
-    <room>rooms\mainMenu</room>
-    <room>rooms\LevelSelect</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
