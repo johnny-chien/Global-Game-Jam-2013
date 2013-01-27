@@ -31,7 +31,6 @@
       <sprite>sprites\bookcase2</sprite>
       <sprite>sprites\bookcase3</sprite>
     </sprites>
-    <sprite>sprites\mrtDance</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -57,7 +56,6 @@
     <objects name="destructable objects">
       <object>objects\obj_bookcase</object>
       <object>objects\obj_vase</object>
-      <object>objects\obj_destruct_desk</object>
       <object>objects\obj_destruct</object>
     </objects>
     <objects name="non-destructable objects">
