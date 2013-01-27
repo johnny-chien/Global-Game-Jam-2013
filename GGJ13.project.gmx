@@ -9,27 +9,14 @@
     <sound>sound\explosionSound</sound>
   </sounds>
   <sprites name="sprites">
-    <sprites name="characters">
-      <sprite>sprites\mrtDance</sprite>
-      <sprite>sprites\mrtIdle</sprite>
-      <sprite>sprites\mrtWalk</sprite>
-      <sprite>sprites\manWalk</sprite>
-      <sprite>sprites\manIdle</sprite>
-      <sprite>sprites\fatWalk</sprite>
-      <sprite>sprites\fatIdle</sprite>
-      <sprite>sprites\screamIdle</sprite>
-      <sprite>sprites\screamWalk</sprite>
-      <sprite>sprites\kimIdle</sprite>
-      <sprite>sprites\kimWalk</sprite>
-    </sprites>
     <sprite>sprites\exit_sign</sprite>
+    <sprite>sprites\vase_spr</sprite>
     <sprite>sprites\explosion_spr</sprite>
     <sprite>sprites\reset_spr</sprite>
     <sprite>sprites\wall_spr</sprite>
     <sprite>sprites\panic</sprite>
     <sprites name="furniture">
       <sprite>sprites\chair_and_desk_spr</sprite>
-      <sprite>sprites\vase_spr</sprite>
       <sprite>sprites\spr_destruct_desk</sprite>
       <sprite>sprites\fireplace_spr</sprite>
       <sprite>sprites\cabinet_spr</sprite>
@@ -37,13 +24,25 @@
       <sprite>sprites\bookcase1</sprite>
       <sprite>sprites\bookcase2</sprite>
       <sprite>sprites\bookcase3</sprite>
-    </sprites>
-    <sprites name="plants">
       <sprite>sprites\plant2</sprite>
       <sprite>sprites\plant3</sprite>
+      <sprite>sprites\plant1</sprite>
       <sprite>sprites\plant4</sprite>
       <sprite>sprites\plant5</sprite>
-      <sprite>sprites\plant1</sprite>
+    </sprites>
+    <sprites name="people">
+      <sprite>sprites\fatWalk</sprite>
+      <sprite>sprites\fatIdle</sprite>
+      <sprite>sprites\mrtWalk</sprite>
+      <sprite>sprites\mrtIdle</sprite>
+      <sprite>sprites\mrtDance</sprite>
+      <sprite>sprites\swagDance</sprite>
+      <sprite>sprites\swagIdle</sprite>
+      <sprite>sprites\normalIdle</sprite>
+      <sprite>sprites\normalPanic</sprite>
+      <sprite>sprites\plumberIdle</sprite>
+      <sprite>sprites\plumberWalk</sprite>
+      <sprite>sprites\plumberDance</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -51,6 +50,8 @@
   </backgrounds>
   <paths name="paths">
     <path>paths\fatPath</path>
+    <path>paths\dancePath</path>
+    <path>paths\panicPath</path>
   </paths>
   <fonts name="fonts">
     <font>fonts\Code</font>
@@ -63,27 +64,23 @@
     </objects>
     <objects name="characters">
       <object>objects\obj_regMan</object>
-      <object>objects\obj_screamer</object>
-      <object>objects\obj_kim</object>
       <object>objects\obj_fatLady</object>
-      <object>objects\obj_mrt</object>
       <object>objects\obj_character</object>
+      <object>objects\obj_mrt</object>
+      <object>objects\obj_swag</object>
+      <object>objects\obj_normal</object>
+      <object>objects\obj_plumber</object>
     </objects>
     <objects name="destructable objects">
       <object>objects\obj_bookcase</object>
       <object>objects\obj_vase</object>
-      <object>objects\obj_destruct_desk</object>
       <object>objects\obj_destruct</object>
+      <object>objects\obj_destruct_desk</object>
     </objects>
     <objects name="non-destructable objects">
       <object>objects\cabinet</object>
       <object>objects\obj_chair_and_desk</object>
       <object>objects\obj_wall</object>
-      <object>objects\obj_plant1</object>
-      <object>objects\obj_plant2</object>
-      <object>objects\obj_plant3</object>
-      <object>objects\obj_plant4</object>
-      <object>objects\obj_plant5</object>
       <object>objects\obj_bookcase_after</object>
       <object>objects\obj_nonDestruct</object>
     </objects>
@@ -93,7 +90,6 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
-    <room>rooms\dynomite</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
