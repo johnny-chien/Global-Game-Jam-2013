@@ -27,8 +27,9 @@
       <sprite>sprites\fireplace_spr</sprite>
       <sprite>sprites\cabinet_spr</sprite>
       <sprite>sprites\just_a_chair_spr</sprite>
-      <sprite>sprites\bookcase_exp</sprite>
-      <sprite>sprites\bookcase_idle</sprite>
+      <sprite>sprites\bookcase1</sprite>
+      <sprite>sprites\bookcase2</sprite>
+      <sprite>sprites\bookcase3</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -48,6 +49,7 @@
     <object>objects\object11</object>
     <objects name="furniture">
       <object>objects\cabinet</object>
+      <object>objects\bookcase_after</object>
       <object>objects\bookcase</object>
       <object>objects\chair_and_desk</object>
     </objects>
