@@ -38,7 +38,6 @@
   </backgrounds>
   <paths name="paths">
     <path>paths\fatPath</path>
-    <path>paths\dancePath</path>
   </paths>
   <fonts name="fonts">
     <font>fonts\Code</font>
@@ -53,12 +52,13 @@
     <objects name="characters">
       <object>objects\obj_regMan</object>
       <object>objects\obj_fatLady</object>
-      <object>objects\obj_character</object>
       <object>objects\obj_mrt</object>
+      <object>objects\obj_character</object>
     </objects>
     <objects name="destructable objects">
       <object>objects\obj_bookcase</object>
       <object>objects\obj_vase</object>
+      <object>objects\obj_destruct_desk</object>
       <object>objects\obj_destruct</object>
     </objects>
     <objects name="non-destructable objects">
