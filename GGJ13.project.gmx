@@ -43,6 +43,10 @@
       <sprite>sprites\plumberIdle</sprite>
       <sprite>sprites\plumberWalk</sprite>
       <sprite>sprites\plumberDance</sprite>
+      <sprite>sprites\screamWalk</sprite>
+      <sprite>sprites\screamIdle</sprite>
+      <sprite>sprites\kimIdle</sprite>
+      <sprite>sprites\kimWalk</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -63,13 +67,14 @@
       <object>objects\musicInvisible</object>
     </objects>
     <objects name="characters">
-      <object>objects\obj_regMan</object>
       <object>objects\obj_fatLady</object>
-      <object>objects\obj_character</object>
       <object>objects\obj_mrt</object>
       <object>objects\obj_swag</object>
       <object>objects\obj_normal</object>
       <object>objects\obj_plumber</object>
+      <object>objects\obj_kim</object>
+      <object>objects\obj_screamer</object>
+      <object>objects\obj_character</object>
     </objects>
     <objects name="destructable objects">
       <object>objects\obj_bookcase</object>
@@ -83,6 +88,11 @@
       <object>objects\obj_wall</object>
       <object>objects\obj_bookcase_after</object>
       <object>objects\obj_nonDestruct</object>
+      <object>objects\obj_plant1</object>
+      <object>objects\obj_plant2</object>
+      <object>objects\obj_plant3</object>
+      <object>objects\obj_plant4</object>
+      <object>objects\obj_plant5</object>
     </objects>
     <object>objects\obj_exit_door</object>
     <object>objects\obj_explosion</object>
