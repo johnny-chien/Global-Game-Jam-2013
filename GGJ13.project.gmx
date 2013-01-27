@@ -41,6 +41,7 @@
   <fonts name="fonts">
     <font>fonts\Code</font>
     <font>fonts\AdvoCut</font>
+    <font>fonts\AdvoCut_Big</font>
   </fonts>
   <objects name="objects">
     <objects name="gui">
