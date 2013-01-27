@@ -9,6 +9,7 @@
     <sound>sound\explosionSound</sound>
   </sounds>
   <sprites name="sprites">
+    <sprite>sprites\mrtDance</sprite>
     <sprite>sprites\manIdle</sprite>
     <sprite>sprites\manWalk</sprite>
     <sprite>sprites\exit_sign</sprite>
@@ -37,6 +38,7 @@
   </backgrounds>
   <paths name="paths">
     <path>paths\fatPath</path>
+    <path>paths\dancePath</path>
   </paths>
   <fonts name="fonts">
     <font>fonts\Code</font>
@@ -50,8 +52,8 @@
     <objects name="characters">
       <object>objects\obj_regMan</object>
       <object>objects\obj_fatLady</object>
-      <object>objects\obj_bossMan</object>
       <object>objects\obj_character</object>
+      <object>objects\obj_mrt</object>
     </objects>
     <objects name="destructable objects">
       <object>objects\obj_bookcase</object>
