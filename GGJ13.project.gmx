@@ -23,7 +23,7 @@
     <sprite>sprites\panic</sprite>
     <sprites name="furniture">
       <sprite>sprites\chair_and_desk_spr</sprite>
-      <sprite>sprites\just_a_desk_spr</sprite>
+      <sprite>sprites\spr_destruct_desk</sprite>
       <sprite>sprites\fireplace_spr</sprite>
       <sprite>sprites\cabinet_spr</sprite>
       <sprite>sprites\just_a_chair_spr</sprite>
@@ -33,41 +33,41 @@
     </sprites>
   </sprites>
   <backgrounds name="background">
-    <background>background\background0</background>
+    <background>background\background1</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\fatPath</path>
   </paths>
-  <scripts name="scripts">
-    <script>scripts\bookcase_explode.gml</script>
-    <script>scripts\vase_explode.gml</script>
-  </scripts>
+  <fonts name="fonts">
+    <font>fonts\Code</font>
+    <font>fonts\AdvoCut</font>
+  </fonts>
   <objects name="objects">
+    <objects name="gui">
+      <object>objects\obj_reset_button</object>
+      <object>objects\musicInvisible</object>
+    </objects>
     <objects name="characters">
       <object>objects\obj_regMan</object>
       <object>objects\obj_fatLady</object>
-      <object>objects\obj_swagMan</object>
+      <object>objects\obj_bossMan</object>
       <object>objects\obj_character</object>
     </objects>
     <objects name="destructable objects">
-      <object>objects\bookcase</object>
-      <object>objects\vase</object>
+      <object>objects\obj_bookcase</object>
+      <object>objects\obj_vase</object>
       <object>objects\obj_destruct</object>
     </objects>
     <objects name="non-destructable objects">
       <object>objects\cabinet</object>
       <object>objects\obj_chair_and_desk</object>
       <object>objects\obj_wall</object>
+      <object>objects\obj_bookcase_after</object>
       <object>objects\obj_nonDestruct</object>
-      <object>objects\bookcase_after</object>
     </objects>
-    <object>objects\exit_door</object>
-    <object>objects\explosion</object>
-    <object>objects\panic_bubble</object>
-    <objects name="gui">
-      <object>objects\object5</object>
-      <object>objects\musicInvisible</object>
-    </objects>
+    <object>objects\obj_exit_door</object>
+    <object>objects\obj_explosion</object>
+    <object>objects\obj_panic_bubble</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
