@@ -45,7 +45,6 @@
     <object>objects\panic_bubble</object>
     <object>objects\object5</object>
     <object>objects\musicInvisible</object>
-    <object>objects\object11</object>
     <objects name="furniture">
       <object>objects\cabinet</object>
       <object>objects\bookcase</object>
@@ -65,7 +64,7 @@
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>-1</IsTutorial>
+    <IsTutorial>0</IsTutorial>
     <TutorialName>C:\Users\ryanabooth\AppData\Roaming\GameMaker-Studio\Tutorials\YoYo Games 0007 - Physics Tutorial</TutorialName>
     <TutorialPage>4</TutorialPage>
   </TutorialState>
